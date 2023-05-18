@@ -13,8 +13,8 @@ require("dotenv").config()
 // const SCROLL_RPC_URL = process.env.SCROLL_RPC_URL
 // const TAIKO_RPC_URL = process.env.TAIKO_RPC_URL
 const PRIVATE_KEY = process.env.PRIVATE_KEY || "0x"
-// const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY
-// const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY
+const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY
+const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY
 // Your API key for Etherscan, obtain one at https://etherscan.io/
 // const REPORT_GAS = process.env.REPORT_GAS || false
 
